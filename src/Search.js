@@ -40,7 +40,8 @@ export default function Search() {
         <li id="windText">Wind: {wind}km/h</li>
         <li id="icon">
           {" "}
-          <img src={iconUrl} />{" "}
+          <img src={iconUrl} alt="Weather Icon" />
+          {""}
         </li>
       </ul>
     </div>
